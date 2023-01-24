@@ -48,7 +48,7 @@ if(!class_exists("db_conn")){
                                 <div class="col-auto flex-grow-0 d-flex justify-content-end">
                                     <a href="javascript:void(0)" id="new_sy"
                                         class="btn btn-dark btn-sm bg-gradient rounded-2" title="Add School Year"><svg
-                                            class="svg-inline--fa fa-plus fa-w-14" aria-hidden="true" focusable="false"
+                                            class="svg-inline--fa fa-plus fa-w-14" aria-hidden="true" focusable="false" width="15px"
                                             data-prefix="fa" data-icon="plus" role="img"
                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
                                             <path fill="currentColor"
@@ -81,7 +81,7 @@ if(!class_exists("db_conn")){
                                         <div class="col-auto d-flex justify-content-end">
                                             <a href="javascript:void(0)"
                                                 class="edit_school_year btn btn-sm btn-primary bg-gradient py-0 px-1 me-1"
-                                                title="Edit School Year Details" data-id="<?=$school_year['sy_id'] ?>" data-name="2022-2023"><svg
+                                                title="Edit School Year Details" data-id="<?=$school_year['sy_id'] ?>" data-name="2022-2023"><svg width="15px"
                                                     class="svg-inline--fa fa-edit fa-w-18" aria-hidden="true"
                                                     focusable="false" data-prefix="fa" data-icon="edit" role="img"
                                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
@@ -94,7 +94,7 @@ if(!class_exists("db_conn")){
 
                                             <a href="javascript:void(0)"
                                                 class="delete_school_year btn btn-sm btn-danger bg-gradient py-0 px-1"
-                                                title="Delete School Year" data-id="<?=$school_year['sy_id'] ?>" data-name="<?=$school_year['school_year'] ?>"><svg
+                                                title="Delete School Year" data-id="<?=$school_year['sy_id'] ?>" data-name="<?=$school_year['school_year'] ?>"><svg width="15px"
                                                     class="svg-inline--fa fa-trash fa-w-14" aria-hidden="true"
                                                     focusable="false" data-prefix="fa" data-icon="trash" role="img"
                                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
@@ -119,7 +119,7 @@ if(!class_exists("db_conn")){
                                 <div class="col-auto flex-grow-0 d-flex justify-content-end">
                                     <a href="javascript:void(0)" id="new_year_lvl"
                                         class="btn btn-dark btn-sm bg-gradient rounded-2" title="Add Year Level"><svg
-                                            class="svg-inline--fa fa-plus fa-w-14" aria-hidden="true" focusable="false"
+                                            class="svg-inline--fa fa-plus fa-w-14" aria-hidden="true" focusable="false" width="15px"
                                             data-prefix="fa" data-icon="plus" role="img"
                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
                                             <path fill="currentColor"
@@ -141,7 +141,7 @@ if(!class_exists("db_conn")){
                                         <div class="col-auto d-flex justify-content-end">
                                             <a href="javascript:void(0)"
                                                 class="edit_year_lvl btn btn-sm btn-primary bg-gradient py-0 px-1 me-1"
-                                                title="Edit School Year Details" data-id="<?=$year_level['yl_id'] ?>" data-name="<?=$year_level['name'] ?>"><svg
+                                                title="Edit School Year Details" data-id="<?=$year_level['yl_id'] ?>" data-name="<?=$year_level['name'] ?>"><svg width="15px"
                                                     class="svg-inline--fa fa-edit fa-w-18" aria-hidden="true"
                                                     focusable="false" data-prefix="fa" data-icon="edit" role="img"
                                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
@@ -154,7 +154,7 @@ if(!class_exists("db_conn")){
 
                                             <a href="javascript:void(0)"
                                                 class="delete_year_lvl btn btn-sm btn-danger bg-gradient py-0 px-1"
-                                                title="Delete School Year" data-id="<?=$year_level['yl_id'] ?>" data-name="<?=$year_level['name'] ?>"><svg
+                                                title="Delete School Year" data-id="<?=$year_level['yl_id'] ?>" data-name="<?=$year_level['name'] ?>"><svg width="15px"
                                                     class="svg-inline--fa fa-trash fa-w-14" aria-hidden="true"
                                                     focusable="false" data-prefix="fa" data-icon="trash" role="img"
                                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
@@ -178,7 +178,7 @@ if(!class_exists("db_conn")){
                                 <div class="fs-5 col-auto flex-grow-1"><b>Course List</b></div>
                                 <div class="col-auto flex-grow-0 d-flex justify-content-end">
                                     <a href="javascript:void(0)" id="new_course"
-                                        class="btn btn-dark btn-sm bg-gradient rounded-2" title="Add course"><svg
+                                        class="btn btn-dark btn-sm bg-gradient rounded-2" title="Add course"><svg width="15px"
                                             class="svg-inline--fa fa-plus fa-w-14" aria-hidden="true" focusable="false"
                                             data-prefix="fa" data-icon="plus" role="img"
                                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
@@ -213,7 +213,7 @@ if(!class_exists("db_conn")){
                                         <div class="col-auto d-flex justify-content-end">
                                             <a href="javascript:void(0)"
                                                 class="edit_course btn btn-sm btn-primary bg-gradient py-0 px-1 me-1"
-                                                title="Edit Course Details" data-id="<?=$course['course_id'] ?>" data-name="<?=$course['course_code'] ?>"><svg
+                                                title="Edit Course Details" data-id="<?=$course['course_id'] ?>" data-name="<?=$course['course_code'] ?>"><svg width="15px"
                                                     class="svg-inline--fa fa-edit fa-w-18" aria-hidden="true"
                                                     focusable="false" data-prefix="fa" data-icon="edit" role="img"
                                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
@@ -226,7 +226,7 @@ if(!class_exists("db_conn")){
 
                                             <a href="javascript:void(0)"
                                                 class="delete_course btn btn-sm btn-danger bg-gradient py-0 px-1"
-                                                title="Delete Course" data-id="<?=$course['course_id'] ?>" data-name="<?=$course['course_code'] ?>"><svg
+                                                title="Delete Course" data-id="<?=$course['course_id'] ?>" data-name="<?=$course['course_code'] ?>"><svg width="15px"
                                                     class="svg-inline--fa fa-trash fa-w-14" aria-hidden="true"
                                                     focusable="false" data-prefix="fa" data-icon="trash" role="img"
                                                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
