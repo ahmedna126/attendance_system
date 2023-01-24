@@ -9,7 +9,7 @@ username : test
 password : 123
 
 -----------------------------------
-> [link to watch video](https://youtu.be/8IRmAF91mFI)
+> [link to watch video in youtube](https://youtu.be/8IRmAF91mFI)
 -----------------------------------
 photo 
 
