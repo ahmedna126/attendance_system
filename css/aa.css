@@ -1,0 +1,76 @@
+.pagination {
+	display: inline-flex;
+}
+
+.pagination a {
+	color: #505050;
+	text-decoration: none;
+}
+
+.page-a-link {
+	font-family: arial, verdana;
+    font-size: 12px;
+    border: 1px #afafaf solid;
+    background-color: #fbfbfb;
+    padding: 6px 12px 6px 12px;
+    margin: 6px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.active {
+	font-family: arial, verdana;
+    font-size: 12px;
+    padding: 8px 14px 6px 14px;
+    margin: 3px;
+    background-color: #404040;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 6px;
+    color: #FFF;
+}
+
+a.previous-page {
+	margin: 10px 10px 10px 0px;
+}
+
+a.prev-next:hover {
+	color: #03a9f4;
+}
+
+a.next {
+	margin: 10px 0px 10px 10px;
+}
+
+input.enter-page-no {
+	width: 42px !important;
+	height: 28px !important;
+	font-size: 12px;
+	padding: 6px 12px 6px 12px !important;
+	margin: 6px;
+	border-radius: 3px !important;
+	text-align: center !important;
+}
+
+input.goto-button {
+	max-width: 80px;
+	font-size: 12px;
+	padding: 6px 12px 6px 12px !important;
+	border: 1px solid #9a9a9a;
+	border-radius: 3px !important;
+	text-align: center !important;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dfdd99), color-stop(100%, #bcbd2b));
+    background: -webkit-linear-gradient(top, #dfdc99, #b8bd2b);
+    border: 1px solid #97a031;
+    box-shadow: inset 0px 1px 0px rgb(255, 255, 211), 0px 1px 4px rgba(199, 199, 199, 0.9);
+}
+
+.goto-page {
+	float: right;
+}
+
+.page-before-after {
+	font-weight: bold;
+	padding-top: 12px;
+	text-decoration: none;
+}
